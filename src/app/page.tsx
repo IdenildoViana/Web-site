@@ -4,9 +4,9 @@ import TextHome from "./Componentes/TextHome";
 
 export default function Home() {
   return (
-    <main className="h-screen bg-[#0C0D37]">
+    <main className="h-screen overflow-auto bg-[#0C0D37]">
       <Header/>
-      <div className="flex justify-center gap-x-80 items-center ">
+      <div className="flex gap-x-10">
         <TextHome/>
         <ImgHome/>
       </div>
