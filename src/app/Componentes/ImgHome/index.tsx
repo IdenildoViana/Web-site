@@ -4,7 +4,7 @@ import img3 from '../../../Imagens/img3.png'
 
 function ImgHome(){
     return(
-        <div className='mr-64'>
+        <div className='mr-64 max-w-xs my-auto'>
             <img src={img1.src} alt="primeira imagem" className="mt-10"/>
             <img src={img2.src} alt="primeira imagem" className="mt-10"/>
             <img src={img3.src} alt="primeira imagem" className="mt-10"/>
