@@ -2,7 +2,7 @@ import ButtonHome from "../ButtonHome"
 
 function TextHome () {
     return(
-        <div className="mt-14 ml-10 text-5xl font-extrabold ">
+        <div className="mt-14 ml-10 text-5xl font-extrabold  ">
             <h1 className=""> <span className="  bg-gradient-to-r  from-[#01E1FF] to-[#1E53BB] text-transparent bg-clip-text">Seu negócio</span> com mais vida. </h1>
             <h1 className="mt-2"> Tenha mais <span className="bg-gradient-to-r  from-[#01E1FF] to-[#1E53BB] text-transparent bg-clip-text"> Visibilidade. </span> </h1>
             <h1 className="mt-2"> <span className="bg-gradient-to-r  from-[#01E1FF] to-[#1E53BB] text-transparent bg-clip-text">Conquiste</span> seus sonhos. </h1>
@@ -15,7 +15,7 @@ function TextHome () {
                 <li>Impulsionando o crescimento, aumentando a visibilidade da marca, gerando leads e conquistando novos clientes;</li>
                 <li>Funciona como uma vitrine virtual para apresentar produtos e serviços de forma atrativa, incentivando o contato direto com a empresa.</li>
             </ul>
-            <h2 className="mt-7 text-3xl font-medium "> Investir em um site é crucial para o crescimento da marca</h2>
+            <h2 className="mt-7 text-3xl font-medium "> Investir em um site é crucial para o crescimento de sua marca.</h2>
             <ButtonHome/>
         </div>
     )
