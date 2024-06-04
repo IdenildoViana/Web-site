@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { AltArrowRight, ArrowRight } from "react-solar-set";
 
 const Header = () => {
   const pathname = usePathname();
@@ -19,28 +20,27 @@ const Header = () => {
         <Link href="/">
           <button
             aria-selected={isActive("/")}
-            className="mr-10 hover:text-violet-600 aria-selected:text-violet-600 focus:text-violet-600 "
+            className="mr-10 hover:text-blue-500 aria-selected:text-violet-500 "
           >
-            <a> Home </a>
+            Home
           </button>
         </Link>
         <Link href="/Orcamento">
           <button
             aria-selected={isActive("/Orcamento")}
-            className="hover:text-violet-600 aria-selected:text-violet-600 focus:text-violet-600"
+            className="hover:text-blue-500 aria-selected:text-violet-500  "
           >
-            <a> Orçamentos </a>
+            Orçamentos
           </button>
         </Link>
       </div>
 
-      <button className="bg-violet-900 py-2 px-4 rounded-full text-center items-center justify-center">
-        {" "}
-        <Link href="https://wa.me/5591985939736?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+como+criar+meu+site.">
-          {" "}
-          <a>Saiba Mais</a>{" "}
-        </Link>
-      </button>
+      <Link href="https://wa.me/5591985939736?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+como+criar+meu+site.">
+        <button className="flex bg-violet-950 text-white py-2 px-4 gap-2 rounded-full text-center items-center justify-center hover:bg-violet-900">
+          Saiba Mais
+          <AltArrowRight size={16} />
+        </button>
+      </Link>
     </div>
   );
 };

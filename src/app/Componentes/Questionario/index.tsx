@@ -8,7 +8,8 @@ function Questionario() {
             <input
               type="text"
               placeholder="Seu nome..."
-              className="rounded-2xl py-2 px-11 text-black bg-slate-200"
+              required
+              className="rounded-2xl py-2 px-11 text-black bg-slate-200 focus:border-2 focus:border-violet-600 invalid:focus:border-2 invalid:focus:border-red-400 "
             />
           </div>
 
@@ -16,8 +17,9 @@ function Questionario() {
             <span className="ml-2">Telefone</span>
             <input
               type="tel"
+              required
               placeholder="Número com DDD"
-              className="rounded-2xl text-black py-2 px-11  bg-slate-200"
+              className="rounded-2xl text-black py-2 px-11 bg-slate-200 focus:border-violet-600 invalid:focus:border-2 invalid:focus:border-red-400"
             />
           </div>
         </div>
@@ -27,7 +29,8 @@ function Questionario() {
           <input
             type="email"
             placeholder="Seu e-mail..."
-            className="rounded-2xl py-2 px-11 mb-10 text-black  bg-slate-200 "
+            required
+            className="rounded-2xl py-2 px-11 mb-10 text-black  bg-slate-200 focus:border-violet-600 invalid:focus:border-2 invalid:focus:border-red-400 "
           />
         </div>
 
@@ -36,7 +39,8 @@ function Questionario() {
           <textarea
             rows={3}
             placeholder="Descreva com detalhes seu pedido aqui..."
-            className="rounded-2xl py-2 px-11 text-black bg-slate-200 min-h-16"
+            required
+            className="rounded-2xl py-2 px-11 text-black bg-slate-200 min-h-16 focus:border-violet-600 invalid:focus:border-2 invalid:focus:border-red-400"
           />
         </div>
       </div>
@@ -47,7 +51,7 @@ function Questionario() {
       </p>
 
       <div className=" items-center justify-center text-center">
-        <button className=" bg-violet-900 mt-10 py-2 px-4 rounded-2xl ">
+        <button className=" bg-violet-950 mt-10 py-2 px-4 rounded-2xl hover:bg-violet-900 ">
           Solicitar Orçamento
         </button>
       </div>
