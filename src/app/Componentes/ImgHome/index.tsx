@@ -8,10 +8,10 @@ function ImgHome() {
       <img
         src={img1.src}
         alt="primeira imagem"
-        className=" mt-10 hover:bg-cover"
+        className=" mt-10 hover:scale-105"
       />
-      <img src={img2.src} alt="primeira imagem" className="" />
-      <img src={img3.src} alt="primeira imagem" className="" />
+      <img src={img2.src} alt="primeira imagem" className="hover:scale-105" />
+      <img src={img3.src} alt="primeira imagem" className="hover:scale-105" />
     </div>
   );
 }
