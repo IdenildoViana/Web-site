@@ -36,7 +36,7 @@ const Header = () => {
       </div>
 
       <Link href="https://wa.me/5591985939736?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+como+criar+meu+site.">
-        <button className="flex bg-gradient-to-r from-[#452A67] to-[#46299A] text-white py-2 px-4 gap-2 rounded-full text-center items-center justify-center hover:font-bold hover:text-blue-400">
+        <button className="flex bg-gradient-to-r from-[#452A67] to-[#46299A] text-white py-2 px-4 gap-2 rounded-full text-center items-center justify-center hover:font-bold hover:text-blue-400  ">
           Saiba Mais
           <AltArrowRight size={16} />
         </button>
