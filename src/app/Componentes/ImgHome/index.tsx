@@ -4,7 +4,7 @@ import img3 from "../../../Imagens/img3.png";
 
 function ImgHome() {
   return (
-    <div className=" flex flex-col gap-10 mr-64 max-w-xs my-auto">
+    <div className=" hidden sm:flex flex-col gap-10 mr-64 max-w-xs my-auto">
       <img
         src={img1.src}
         alt="primeira imagem"
