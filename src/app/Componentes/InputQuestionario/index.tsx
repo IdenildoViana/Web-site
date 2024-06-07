@@ -1,6 +1,6 @@
 function InputQuestonario() {
   return (
-    <div className="flex flex-col gap-4 text-base ml-2 mr-2">
+    <div className="flex flex-col gap-4 text-base sm:text-xl sm:ml-0 sm:mr-0 ml-2 mr-2">
       <div className="flex w-full gap-6">
         <div className="flex w-72 sm:w-full flex-col gap-2">
           <span className="ml-2 ">Nome</span>
@@ -33,8 +33,8 @@ function InputQuestonario() {
         />
       </div>
 
-      <div className="flex flex-col gap-2">
-        <span className="ml-2 text-lg">Como podemos ajudar?</span>
+      <div className="flex flex-col sm:text-xl gap-2">
+        <span className="ml-2 sm:text-xl text-lg">Como podemos ajudar?</span>
         <textarea
           rows={3}
           placeholder="Descreva com detalhes seu pedido aqui..."

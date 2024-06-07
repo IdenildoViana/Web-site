@@ -4,7 +4,7 @@ function TextOrcamento() {
   return (
     <div>
       <div className="mb-20 mt-10 sm:mt-20 ">
-        <h1 className="text-center  text-3xl sm:text-4xl font-extrabold max-w-screen-sm mx-auto mb-5 ">
+        <h1 className="text-center text-3xl sm:text-5xl font-extrabold max-w-screen-sm mx-auto mb-5 ">
           {" "}
           Precisando de um{" "}
           <span className="bg-gradient-to-r  from-[#01E1FF] to-[#1E53BB] text-transparent bg-clip-text">
@@ -16,7 +16,7 @@ function TextOrcamento() {
           </span>{" "}
           para sua empresa?{" "}
         </h1>
-        <p className=" text-justify ml-5 mr-5 sm:text-center sm:max-w-screen-lg sm:mx-auto text-base sm:text-xl font-light">
+        <p className=" text-justify ml-5 mr-5 sm:text-center sm:max-w-screen-lg sm:mx-auto text-base sm:text-2xl font-light">
           Temos uma equipe de desenvolvedores especializados na área, com as
           mais novas tecnologias do mercado como TypeScript, JavaScript,
           ReactJs, HTML5, Tailwind e outras tecnologias super em alta.
@@ -28,10 +28,10 @@ function TextOrcamento() {
       </div>
       <div className="sm:flex">
         <div className=" mx-auto">
-          <h2 className="text-2xl text-center sm:text-3xl">
+          <h2 className="text-2xl text-center sm:text-left sm:text-3xl">
             Como pedir um orçamento?
           </h2>
-          <ul className="text-base sm:text-lg font-extralight g-10 list-disc ml-10 mt-7 mb-10">
+          <ul className="text-base sm:text-xl font-extralight g-10 list-disc ml-10 mt-7 mb-10">
             <li> Descreva em detalhes o que você deseja com o site; </li>
             <li>
               {" "}

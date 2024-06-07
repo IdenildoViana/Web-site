@@ -4,14 +4,22 @@ import img3 from "../../../Imagens/img3.png";
 
 function ImgHome() {
   return (
-    <div className=" hidden sm:flex flex-col gap-10 mr-64 max-w-xs my-auto">
+    <div className="hidden mt-20 sm:flex flex-col gap-28 max-w-sm my-auto">
       <img
         src={img1.src}
         alt="primeira imagem"
-        className=" mt-10 hover:scale-105"
+        className=" scale-125 hover:scale-150"
       />
-      <img src={img2.src} alt="primeira imagem" className="hover:scale-105" />
-      <img src={img3.src} alt="primeira imagem" className="hover:scale-105" />
+      <img
+        src={img2.src}
+        alt="primeira imagem"
+        className=" scale-125 hover:scale-150"
+      />
+      <img
+        src={img3.src}
+        alt="primeira imagem"
+        className=" scale-125 hover:scale-150"
+      />
     </div>
   );
 }
