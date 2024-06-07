@@ -1,3 +1,4 @@
+import ListaOrcamento from "../ListaOrcamento";
 import Questionario from "../Questionario";
 
 function TextOrcamento() {
@@ -19,8 +20,8 @@ function TextOrcamento() {
         <p className=" text-justify ml-5 mr-5 sm:text-center sm:max-w-screen-lg sm:mx-auto text-base sm:text-2xl font-light">
           Temos uma equipe de desenvolvedores especializados na área, com as
           mais novas tecnologias do mercado como TypeScript, JavaScript,
-          ReactJs, HTML5, Tailwind e outras tecnologias super em alta.
-          Desenvolvendo sites modernos e responsivos, trazendo um ar de
+          ReactJs, NextJs, NodeJs, HTML5, Tailwind e outras tecnologias super em
+          alta. Desenvolvendo sites modernos e responsivos, trazendo um ar de
           sofisticação para sua empresa, além de chamar a atenção para sua
           marca. Nossos Dev’s trabalham desenvolvendo Sites, portifólios,
           agregador de link, blog, entre outros modelos web.
@@ -31,15 +32,7 @@ function TextOrcamento() {
           <h2 className="text-2xl text-center sm:text-left sm:text-3xl">
             Como pedir um orçamento?
           </h2>
-          <ul className="text-base sm:text-xl font-extralight g-10 list-disc ml-10 mt-7 mb-10">
-            <li> Descreva em detalhes o que você deseja com o site; </li>
-            <li>
-              {" "}
-              O que você espera, quais funcionalidades e ações ele deverá ter;{" "}
-            </li>
-            <li> Descreva sua marca e como sua empresa funciona; </li>
-            <li> Mencione todos os detalhes que espera que o site tenha </li>
-          </ul>
+          <ListaOrcamento />
         </div>
         <Questionario />
       </div>
