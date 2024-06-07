@@ -5,7 +5,7 @@ function Questionario() {
     <div className="max-w-screen-md mx-auto mb-10 ">
       <InputQuestonario />
 
-      <p className="text-sm sm:text-lg ml-3 mr-3 text-justify text-blue-300 max-w-screen-sm ">
+      <p className="text-sm sm:text-lg ml-10 mr-10 text-justify text-blue-300 max-w-screen-sm ">
         Descreva exatamente o que está buscando. Quando mais detalhes, mais
         rápido conseguimos te dar um retorno. Descrições vagas demais irão
         atrasar muito o processo de entrega.
