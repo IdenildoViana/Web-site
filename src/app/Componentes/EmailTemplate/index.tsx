@@ -34,6 +34,13 @@ export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = ({
             <Text style={heading}>Me chamo {name},</Text>
             <Text style={review}>{message}</Text>
             <Text style={paragraph}> Número de contato: {phone}</Text>
+
+            <Button
+              style={button}
+              href="https://wa.me/5591985939736?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+como+criar+meu+site."
+            >
+              Fale comigo WhatsApp
+            </Button>
           </Row>
         </Section>
       </Container>
@@ -75,7 +82,7 @@ const review = {
 };
 
 const button = {
-  backgroundColor: "#ff5a5f",
+  backgroundColor: "#704170",
   borderRadius: "3px",
   color: "#fff",
   fontSize: "18px",
