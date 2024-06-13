@@ -8,17 +8,17 @@ function ImgHome() {
       <img
         src={img1.src}
         alt="primeira imagem"
-        className=" scale-125 hover:scale-150"
+        className=" scale-110 hover:scale-125"
       />
       <img
         src={img2.src}
         alt="primeira imagem"
-        className=" scale-125 hover:scale-150"
+        className=" scale-110 hover:scale-125"
       />
       <img
         src={img3.src}
         alt="primeira imagem"
-        className=" scale-125 hover:scale-150"
+        className=" scale-110 hover:scale-125"
       />
     </div>
   );

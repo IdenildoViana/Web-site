@@ -4,13 +4,13 @@ import ListaHome from "../ListaHome";
 function TextHome() {
   return (
     <div className="mt-14 text-3xl sm:text-6xl font-extrabold  ">
-      <h1 className="ml-10">
+      <h1 className="ml-5">
         <span className=" bg-gradient-to-r  from-[#01E1FF] to-[#1E53BB] text-transparent bg-clip-text">
-          Seu negócio
+          Seu negócio{" "}
         </span>
         com mais vida.
       </h1>
-      <h1 className="mt-2 ml-10">
+      <h1 className="mt-2 ml-5">
         {" "}
         Tenha mais{" "}
         <span className="bg-gradient-to-r  from-[#01E1FF] to-[#1E53BB] text-transparent bg-clip-text">
@@ -18,7 +18,7 @@ function TextHome() {
           Visibilidade.{" "}
         </span>{" "}
       </h1>
-      <h1 className="mt-2 ml-10">
+      <h1 className="mt-2 ml-5">
         {" "}
         <span className="bg-gradient-to-r  from-[#01E1FF] to-[#1E53BB] text-transparent bg-clip-text">
           Conquiste
