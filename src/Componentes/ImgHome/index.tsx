@@ -1,6 +1,6 @@
-import img1 from "../../../Imagens/img1.png";
-import img2 from "../../../Imagens/img2.png";
-import img3 from "../../../Imagens/img3.png";
+import img1 from "../../Imagens/img1.png";
+import img2 from "../../Imagens/img2.png";
+import img3 from "../../Imagens/img3.png";
 
 function ImgHome() {
   return (

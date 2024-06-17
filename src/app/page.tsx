@@ -1,6 +1,6 @@
-import Header from "./Componentes/Header";
-import ImgHome from "./Componentes/ImgHome";
-import TextHome from "./Componentes/TextHome";
+import Header from "../Componentes/Header";
+import ImgHome from "../Componentes/ImgHome";
+import TextHome from "../Componentes/TextHome";
 
 export default function Home() {
   return (
