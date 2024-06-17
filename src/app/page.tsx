@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="h-screen overflow-y-auto mx-auto pb-12 bg-gradient-to-r from-[#0E1218] via-[#0C0D37] to-[#0E1218] ">
       <Header />
-      <div className="flex justify-center items-center gap-x-20">
+      <div className="flex justify-center items-center gap-20">
         <TextHome />
         <ImgHome />
       </div>
