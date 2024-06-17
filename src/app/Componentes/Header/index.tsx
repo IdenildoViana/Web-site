@@ -12,7 +12,7 @@ const Header = () => {
   }
 
   return (
-    <div className="flex h-20 bg-[#030937] bg-opacity-50 justify-between items-center px-5 md:rounded-xl sticky top-0">
+    <div className="flex h-20 bg-[#030937] bg-opacity-50 justify-between items-center px-5 md:rounded-xl sticky top-0 z-30">
       <button className="text-2xl md:text-3xl font-extrabold  bg-gradient-to-r  from-violet-500 to-violet-800 text-transparent bg-clip-text py-2 px-4 rounded-lg ">
         VianaDev
       </button>
