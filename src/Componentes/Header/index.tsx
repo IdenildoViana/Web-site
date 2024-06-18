@@ -20,7 +20,7 @@ const Header = () => {
         <Link href="/">
           <button
             aria-selected={isActive("/")}
-            className="mr-5 md:mr-10 md:text-2xl hover:text-blue-500 aria-selected:text-violet-500 "
+            className="mr-5 md:mr-10 md:text-xl hover:text-blue-500 aria-selected:text-violet-500 "
           >
             Home
           </button>
@@ -28,7 +28,7 @@ const Header = () => {
         <Link href="/Orcamento">
           <button
             aria-selected={isActive("/Orcamento")}
-            className=" md:text-2xl hover:text-blue-500 aria-selected:text-violet-500  "
+            className=" md:text-xl hover:text-blue-500 aria-selected:text-violet-500  "
           >
             Orçamentos
           </button>
@@ -36,7 +36,7 @@ const Header = () => {
       </div>
 
       <Link href="https://wa.me/5591985939736?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+como+criar+meu+site.">
-        <button className=" md:text-2xl bg-gradient-to-r from-[#452A67] to-[#46299A] text-white py-2 px-4 gap-2 rounded-full text-center items-center justify-center hover:font-bold hover:text-blue-400 hidden md:flex ">
+        <button className=" md:text-xl bg-gradient-to-r from-[#452A67] to-[#46299A] text-white py-2 px-4 gap-2 rounded-full text-center items-center justify-center hover:font-bold hover:text-blue-400 hidden md:flex ">
           Saiba Mais
           <AltArrowRight size={16} />
         </button>
