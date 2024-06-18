@@ -27,7 +27,7 @@ function TextOrcamento() {
           agregador de link, blog, entre outros modelos web.
         </p>
       </div>
-      <div className="sm:flex">
+      <div className="sm:flex gap-10">
         <div className=" mx-auto">
           <h2 className="text-2xl text-center sm:text-left sm:text-3xl">
             Como pedir um orçamento?
