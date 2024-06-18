@@ -3,8 +3,8 @@ import Questionario from "../Questionario";
 
 function TextOrcamento() {
   return (
-    <div>
-      <div className="mb-20 mt-10 sm:mt-20 ">
+    <div className="ml-10 mr-10">
+      <div className="mb-20 mt-10  sm:mt-20 ">
         <h1 className="text-center text-3xl sm:text-5xl font-extrabold max-w-screen-sm mx-auto mb-5 ">
           {" "}
           Precisando de um{" "}
