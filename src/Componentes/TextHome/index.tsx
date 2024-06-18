@@ -3,7 +3,7 @@ import ListaHome from "../ListaHome";
 
 function TextHome() {
   return (
-    <div className="mt-14 text-3xl sm:text-6xl font-extrabold  ">
+    <div className="mt-14 text-3xl sm:text-5xl font-extrabold  ">
       <h1 className="ml-5">
         <span className=" bg-gradient-to-r  from-[#01E1FF] to-[#1E53BB] text-transparent bg-clip-text">
           Seu negócio{" "}
@@ -26,11 +26,11 @@ function TextHome() {
         seus sonhos.{" "}
       </h1>
 
-      <h2 className="mt-14  text-2xl text-center sm:text-3xl sm:text-left font-medium">
+      <h2 className="mt-14  text-2xl text-center sm:text-left font-medium">
         Por que ter um site?
       </h2>
       <ListaHome />
-      <h2 className="mt-7 text-2xl text-center sm:text-3xl sm:text-left font-medium ">
+      <h2 className="mt-7 text-2xl text-center sm:text-left font-medium ">
         {" "}
         Investir em um site é crucial para o crescimento de sua marca.
       </h2>
