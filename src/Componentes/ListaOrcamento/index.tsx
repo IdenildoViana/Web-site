@@ -1,7 +1,7 @@
 function ListaOrcamento() {
   return (
     <div>
-      <ul className="text-base sm:text-xl font-extralight g-10 list-disc ml-10 mt-7 mb-10">
+      <ul className="text-base sm:text-xl font-extralight list-disc ml-10 mt-7 mb-10">
         <li> Descreva em detalhes o que você deseja com o site; </li>
         <li>
           {" "}
