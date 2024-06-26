@@ -1,12 +1,13 @@
 "use client";
 
-import { FormEvent, FormEventHandler, useState } from "react";
+import { FormEvent, useState } from "react";
 
 function InputQuestonario() {
   const [nome, setNome] = useState("");
   const [telefone, setTelefone] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [feedback, setFeedback] = useState("");
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -25,11 +26,19 @@ function InputQuestonario() {
         }),
       });
 
-      const result = await response.json();
-
-      console.log(result);
+      if (response.ok) {
+        setFeedback(
+          "Orçamento solicitado com sucesso! Em breve entraremos em contato."
+        );
+        setNome("");
+        setTelefone("");
+        setEmail("");
+        setMessage("");
+      } else {
+        setFeedback("Erro ao solicitar orçamento! Tente novamente.");
+      }
     } catch (error) {
-      console.log("error", error);
+      setFeedback("Erro ao solicitar orçamento! Tente novamente.");
     }
   }
 
@@ -38,6 +47,7 @@ function InputQuestonario() {
       onSubmit={onSubmit}
       className="flex flex-col gap-4 text-base md:text-xl md:ml-0 md:mr-0 ml-10 mr-10"
     >
+      {feedback && <p className="text-center">{feedback}</p>}
       <div className="flex flex-col md:flex-row w-full gap-4 md:gap-6">
         <div className="flex w-full flex-col gap-2">
           <span className="ml-2 ">Nome</span>
@@ -88,10 +98,10 @@ function InputQuestonario() {
         />
       </div>
 
-      <div className=" items-center sm:text-2xl justify-center text-center">
+      <div className="items-center sm:text-2xl justify-center text-center">
         <button
           type="submit"
-          className=" bg-violet-950 mt-5 py-2 px-4 rounded-2xl hover:bg-violet-900 "
+          className="bg-violet-950 mt-5 py-2 px-4 rounded-2xl hover:bg-violet-900"
         >
           Solicitar Orçamento
         </button>
@@ -99,4 +109,5 @@ function InputQuestonario() {
     </form>
   );
 }
+
 export default InputQuestonario;
